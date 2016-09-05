@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Registrar alumno</title>
+    <link rel="stylesheet" href="styles/main.css" type="text/css"/>
+</head>
+<body>
+    <h1>Registrar alumno</h1>
+    <h1> Usuario:user </h1>
+    
+    <form action="emailList" method="post">        
+        <input type="hidden" name="action" value="add">
+        <label class="pad_top">Codigo:</label>        
+        <input type="number" placeholder="Ingrese Codigo" name="codigo" required><br> 
+        <label class="pad_top">Nombre:</label>        
+        <input type="text" placeholder="Ingrese Nombre" name="firstName" required><br>        
+        <label class="pad_top">Apellidos:</label>        
+        <input type="text" placeholder="Ingrese Apellidos" name="lastName" required><br>        
+        <label class="pad_top">Email:</label>        
+        <input type="email" placeholder="E-mail" name="email" required><br>        
+        <label>&nbsp;</label>        
+        <input type="submit" value="Registrar alumno" class="margin_left">       
+    </form> 
+</body>
+</html>
